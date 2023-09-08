@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorAccentLight">#F5E2A8</color>
+    <color name="colorAccentLightMore">#FAF3DA</color>
+
+
+    <color name="colorPrimary">#B2A217</color>
+    <color name="colorPrimaryDark">#019BA5</color>
+    <color name="colorAccent">#019BA5</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#019BA5</color>
+    <color name="blue_dark">#212d47</color>
+    <color name="lightgrey">#EEEEEE</color>
+
+    <color name="primary_text">#140C0C</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="very_light_gray">#DCDCDC</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#0E0D0D</color>
+    <color name="green">#4BB543</color>
+    <color name="green_dark">#17650A</color>
+    <color name="red">#ED4337</color>
+    <color name="orange">#F38B05</color>
+    <color name="gray_light">#99e0e0e0</color>
+    <color name="gray">#99858383</color>
+    <color name="gray_dark">#DD858383</color>
+    <color name="bronze">#CD7F32</color>
+    <color name="tin">#a4a7a1</color>
+    <color name="transparent">#CCFF0000</color>
+    <color name="transparent2">#00000000</color>
+    <color name="transparent_white">#D3FFFFFF</color>
+
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorTextSecondary">#A3FFFFFF</color>
+    <color name="colorBadge">#f4d415</color>
+
+    <color name="color_type_free">#00B14D</color>
+    <color name="color_type_class">#0068F7</color>
+    <color name="color_type_hour_pass">#535353</color>
+    <color name="color_type_fix_court">#F7001E</color>
+    <color name="color_type_app_booking">#68155C</color>
+
+
+</resources>

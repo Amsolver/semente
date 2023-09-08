@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/nsView"
+        android:layout_marginStart="24dp">
+
+        <ImageView
+            android:id="@+id/imageView_Logo"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:contentDescription="@null"
+            android:scaleType="fitStart"
+            android:src="@drawable/logo_semente"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"/>
+
+
+        <TextView
+            android:id="@+id/textView_UserName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="8dp"
+            android:text="Benvido ao centro de control das nosas Sementiñas"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/imageView_Logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="HardcodedText,RtlHardcoded,UseCompatTextViewDrawableXml"
+            android:layout_marginLeft="10dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="#F2F2F2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout_Toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:text="Acerca de"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:background="#F2F2F2"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+            <TextView
+                android:id="@+id/textView_Web"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="A nosa web"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+
+            <TextView
+                android:id="@+id/textView_Orixe"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="A nosa orixe"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:id="@+id/textView_Repositorio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="O noso repositorio"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:text="Términos legales"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:background="#F2F2F2"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+
+            <TextView
+                android:id="@+id/textView_Autoria"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Autoría"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:id="@+id/textView_Licencia"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Licencia"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:background="#F2F2F2"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

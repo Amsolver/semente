@@ -1,0 +1,129 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_53">53dp</dimen>
+    <dimen name="margin_60">45dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+
+    <dimen name="text_size_9">6sp</dimen>
+    <dimen name="text_size_8">10sp</dimen>
+    <dimen name="text_size_4">4sp</dimen>
+    <dimen name="text_size_5">5sp</dimen>
+    <dimen name="text_size_10">8sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">10sp</dimen>
+    <dimen name="text_size_13">11sp</dimen>
+    <dimen name="text_size_16">12sp</dimen>
+    <dimen name="text_size_18">16sp</dimen>
+    <dimen name="text_size_20">12sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_40">20sp</dimen>
+
+
+    <dimen name="dp0">0dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp5">4dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp20">18dp</dimen>
+    <dimen name="dp22">22dp</dimen>
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp28">28dp</dimen>
+    <dimen name="dp30">28dp</dimen>
+    <dimen name="dp40">35dp</dimen>
+    <dimen name="dp48">48dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp64">64dp</dimen>
+    <dimen name="dp75">75dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+    <dimen name="dp150">150dp</dimen>
+    <dimen name="dp160">160dp</dimen>
+    <dimen name="dp176">176dp</dimen>
+    <dimen name="dp190">190dp</dimen>
+    <dimen name="dp200">150dp</dimen>
+    <dimen name="dp350">300dp</dimen>
+    <dimen name="dip150">150dip</dimen>
+
+    <dimen name="sp0">0sp</dimen>
+    <dimen name="sp1">1sp</dimen>
+    <dimen name="sp2">2sp</dimen>
+    <dimen name="sp3">3sp</dimen>
+    <dimen name="sp4">4sp</dimen>
+    <dimen name="sp5">4sp</dimen>
+    <dimen name="sp6">6sp</dimen>
+    <dimen name="sp8">8sp</dimen>
+    <dimen name="sp9">9sp</dimen>
+    <dimen name="sp10">10sp</dimen>
+    <dimen name="sp12">11sp</dimen>
+    <dimen name="sp13">12sp</dimen>
+    <dimen name="sp14">13sp</dimen>
+    <dimen name="sp16">15sp</dimen>
+    <dimen name="sp18">16sp</dimen>
+    <dimen name="sp20">18sp</dimen>
+    <dimen name="sp22">22sp</dimen>
+    <dimen name="sp24">24sp</dimen>
+    <dimen name="sp25">23sp</dimen>
+    <dimen name="sp28">28sp</dimen>
+    <dimen name="sp30">28sp</dimen>
+    <dimen name="sp48">48sp</dimen>
+    <dimen name="sp50">50sp</dimen>
+    <dimen name="sp60">60sp</dimen>
+    <dimen name="sp64">64sp</dimen>
+    <dimen name="sp75">75sp</dimen>
+    <dimen name="sp120">120sp</dimen>
+    <dimen name="sp150">150sp</dimen>
+    <dimen name="sp160">160sp</dimen>
+    <dimen name="sp176">176sp</dimen>
+    <dimen name="sp190">190sp</dimen>
+    <dimen name="sp200">150sp</dimen>
+
+    <!--text size-->
+    <dimen name="text_size_textAppearanceExtraLarge">@dimen/sp25</dimen>
+    <dimen name="text_size_textAppearanceLarge3">@dimen/sp20</dimen>
+    <dimen name="text_size_textAppearanceLarge2">@dimen/sp18</dimen>
+
+    <dimen name="text_size_textAppearanceMediumOther">@dimen/sp12</dimen>
+
+    <dimen name="text_size_textAppearanceSmallTiny">@dimen/sp9</dimen>
+    <dimen name="text_size_textAppearanceSmallTinyTiny">@dimen/sp6</dimen>
+    <dimen name="dialog_width">@dimen/dp350</dimen>
+
+    <dimen name="text_size_textAppearanceMedium">@dimen/sp13</dimen>
+    <dimen name="text_size_textAppearanceSmall">@dimen/sp12</dimen>
+    <dimen name="text_size_textAppearanceLarge">@dimen/sp16</dimen>
+
+    <dimen name="widget_custom_edittext_text_size">@dimen/sp10</dimen>
+    <dimen name="widget_custom_edittext_label_size">@dimen/sp12</dimen>
+
+
+    <dimen name="imagen_with_40">@dimen/dp40</dimen>
+    <dimen name="imagen_heigh_40">@dimen/dp40</dimen>
+</resources>

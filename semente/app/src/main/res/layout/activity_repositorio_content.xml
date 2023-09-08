@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/tvPanelControlTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repositorio de documentos"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F2F2F2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:text="Documentos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:background="#F2F2F2"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+            <TextView
+                android:id="@+id/textView_DadosDeContacto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Dados de contacto"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+
+            <TextView
+                android:id="@+id/textView_FichaAsociarse"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Ficha para asociar-se"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:id="@+id/textView_TripticoInformativo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Tríptico informativo"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+            <TextView
+                android:id="@+id/textView_GuiaParaFamilias"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="12dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/background_grey_border_bottom_1dp"
+                android:text="Guia para familias"
+                android:textSize="17sp"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml"
+                android:drawableEnd="@drawable/ic_arrow_right_24dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
